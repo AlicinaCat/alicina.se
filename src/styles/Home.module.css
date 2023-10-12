@@ -8,6 +8,18 @@
   min-height: 100vh;
 }
 
+/* todo - exctract variables and make helpers */
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  min-height: 100vh;
+}
+
 /* .description {
   display: inherit;
   justify-content: inherit;
