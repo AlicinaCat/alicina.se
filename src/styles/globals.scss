@@ -97,14 +97,15 @@ body {
 
 h1 {
   font-size: $size-main_title;
+  padding: 0 2rem;
 }
 
 h2 {
-  padding-bottom: 3rem;
+  padding: 3rem 2rem;
 }
 
 p {
-  padding-bottom: 2rem;
+  padding: 2rem;
 }
 
 a {
@@ -118,6 +119,16 @@ a {
   }
 }
 
+.navbar {
+  font-size: $size-heading;
+  background-color: $color-primary;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  .main-page {
+    padding-right: 2rem;
+  }
+}
+
 .section {
   min-height: 100vh;
   min-width: 100vw;
@@ -127,4 +138,8 @@ a {
 
 .bg {
   background-color: $color-secondary;
+}
+
+.list {
+  @include flex-justify-center;
 }

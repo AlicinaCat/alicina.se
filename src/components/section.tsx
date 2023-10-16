@@ -8,7 +8,9 @@ interface Props {
 const Section = ({ children, background }: Props) => {
   return (
     <>
-      <div className={`section${background ? ' bg' : ''}`}>{children}</div>
+      <div className={`section${background ? ' bg' : ''}`}>
+        {children}
+      </div>
     </>
   );
 };

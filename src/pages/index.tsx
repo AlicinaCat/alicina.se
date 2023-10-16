@@ -24,8 +24,7 @@ export default function Home() {
 
 //checklist - in order of importance
 
-//add navigation
-//fix scrolling to url section
+//mobile version
 //fix typings
 //change favicon?
 //add seo / schema markup?

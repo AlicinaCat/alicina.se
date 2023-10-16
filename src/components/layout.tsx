@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 import styles from "@/styles/Home.module.scss";
 import { ReactNode } from "react";
+import Navbar from "./navbar";
 
 interface Props {
     children: ReactNode;
@@ -17,7 +18,7 @@ const Layout = ({ children }: Props) => {
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.app}>
-            {children}
+          <Navbar children={children} />
           </div>
 
       </main>
