@@ -1,14 +1,14 @@
-import styles from "@/styles/Home.module.css";
 import { ReactNode } from "react";
 
 interface Props {
+    background?: boolean;
     children: ReactNode;
 }
 
-const Section = ({ children }: Props) => {
+const Section = ({ children, background }: Props) => {
   return (
     <>
-      <div className={styles.section}>{children}</div>
+      <div className={`section${background ? ' bg' : ''}`}>{children}</div>
     </>
   );
 };

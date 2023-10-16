@@ -3,7 +3,7 @@ import Chip from "@mui/material/Chip";
 import Stack from "@mui/material/Stack";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import styles from "@/styles/Home.module.css";
+import styles from "@/styles/Home.module.scss";
 import { useRouter } from "next/navigation";
 
 const Homepage = () => {
@@ -21,9 +21,9 @@ const Homepage = () => {
         <p>Web developer specialized in frontend.</p>
         <div className={styles.body}>
           <Stack direction="row" spacing={2}>
-            <Chip label="About" onClick={() => router.push("#about")} />
-            <Chip label="Portfolio" onClick={() => router.push("#portfolio")} />
-            <Chip label="Contact" onClick={() => router.push("#contact")} />
+            <Chip className={styles.chip} label="About" onClick={() => router.push("#about")} />
+            <Chip className={styles.chip} label="Portfolio" onClick={() => router.push("#portfolio")} />
+            <Chip className={styles.chip} label="Contact" onClick={() => router.push("#contact")} />
           </Stack>
         </div>
       </div>

@@ -1,15 +1,14 @@
-import styles from "@/styles/Home.module.css";
 import Section from "./section";
 
 const About = () => {
   return (
-    <Section>
+    <Section background>
       <div id="about">
         <h2>About section</h2>
         <h3>Who's Behind the Screen?</h3>
         <p>
-          I'm a fullstack developer with a passion for frontend, with over 3.5
-          years of professional experience from fintech to edutech.
+          I'm a fullstack developer with a passion for frontend, with over 3+
+          years of professional experience in different sectors, from fintech to edtech.
         </p>
         <h3>What Can You Expect?</h3>
         <p>

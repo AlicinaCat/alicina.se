@@ -22,10 +22,10 @@ export default function Home() {
   );
 }
 
-//checklist for fun/showoff - in order of importance
+//checklist - in order of importance
 
 //add navigation
-//scrolling updates url section
+//fix scrolling to url section
 //fix typings
 //change favicon?
 //add seo / schema markup?
